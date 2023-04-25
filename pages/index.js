@@ -12,11 +12,16 @@ import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
+export const  metadata = {
+  title: ""
+}
+
 export default function Home() {
   return (
     <div>
           <Head>
-            Airbnb
+          <title>Home - TitleMetaNextjs</title>
+        <meta name="description" content="Meta description for the Home page" />
           </Head>
         
           <Header />

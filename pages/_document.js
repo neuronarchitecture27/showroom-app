@@ -1,9 +1,13 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+export const  metadata = {
+  title: "Airbnb Clone"
+}
+
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head  />
       <body>
         <Main />
         <NextScript />
